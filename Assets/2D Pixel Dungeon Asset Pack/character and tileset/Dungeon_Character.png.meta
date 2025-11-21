@@ -109,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,10 +120,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -189,9 +189,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 45
-        width: 35
-        height: 19
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,9 +211,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 33
-        width: 14
-        height: 15
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: Dungeon_Character_2
       rect:
         serializedVersion: 2
-        x: 29
-        y: 31
-        width: 38
-        height: 18
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,9 +254,9 @@ TextureImporter:
       name: Dungeon_Character_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 48
         y: 48
-        width: 18
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Dungeon_Character_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 45
-        width: 6
-        height: 6
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,7 +298,7 @@ TextureImporter:
       name: Dungeon_Character_5
       rect:
         serializedVersion: 2
-        x: 48
+        x: 80
         y: 48
         width: 16
         height: 16
@@ -320,10 +320,10 @@ TextureImporter:
       name: Dungeon_Character_6
       rect:
         serializedVersion: 2
-        x: 61
-        y: 45
-        width: 38
-        height: 19
+        x: 96
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: Dungeon_Character_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 32
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: Dungeon_Character_8
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 32
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Dungeon_Character_9
       rect:
         serializedVersion: 2
-        x: 93
-        y: 31
-        width: 19
-        height: 20
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +408,10 @@ TextureImporter:
       name: Dungeon_Character_10
       rect:
         serializedVersion: 2
-        x: 97
-        y: 45
-        width: 15
-        height: 19
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +430,10 @@ TextureImporter:
       name: Dungeon_Character_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 19
-        height: 19
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Dungeon_Character_12
       rect:
         serializedVersion: 2
-        x: 2
-        y: 34
-        width: 11
-        height: 13
+        x: 80
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +474,10 @@ TextureImporter:
       name: Dungeon_Character_13
       rect:
         serializedVersion: 2
-        x: 63
-        y: 16
-        width: 34
-        height: 19
+        x: 96
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: Dungeon_Character_14
       rect:
         serializedVersion: 2
-        x: 97
+        x: 0
         y: 16
-        width: 15
-        height: 19
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,8 +520,8 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 16
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: Dungeon_Character_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1
-        width: 14
-        height: 15
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: Dungeon_Character_17
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 15
-        height: 17
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +584,10 @@ TextureImporter:
       name: Dungeon_Character_18
       rect:
         serializedVersion: 2
-        x: 33
+        x: 64
         y: 16
-        width: 14
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +606,10 @@ TextureImporter:
       name: Dungeon_Character_19
       rect:
         serializedVersion: 2
-        x: 48
+        x: 80
         y: 16
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +628,10 @@ TextureImporter:
       name: Dungeon_Character_20
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 14
-        height: 17
+        x: 96
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,10 +650,10 @@ TextureImporter:
       name: Dungeon_Character_21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 0
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +672,10 @@ TextureImporter:
       name: Dungeon_Character_22
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 0
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +694,10 @@ TextureImporter:
       name: Dungeon_Character_23
       rect:
         serializedVersion: 2
-        x: 95
+        x: 32
         y: 0
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +716,10 @@ TextureImporter:
       name: Dungeon_Character_24
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 11
-        height: 13
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,11 +734,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Dungeon_Character_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f47a47e982c64ea93175f0b455428
+      internalID: 2138065020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Character_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f73aa51fab675a4eb50e60445cfb75b
+      internalID: 1761000553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Character_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae980ebcbbc269d48ba3da5a7b0c2605
+      internalID: -1250589522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db6e839d442a4c842b1630b0cd8993e5
     internalID: 0
     vertices: []
     indices: 
@@ -746,7 +812,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Dungeon_Character_0: -5013383146189410228
       Dungeon_Character_1: 7994224659595031685
@@ -766,6 +834,9 @@ TextureImporter:
       Dungeon_Character_22: -3097454778268114089
       Dungeon_Character_23: 7812070969208665739
       Dungeon_Character_24: 3839611741517165852
+      Dungeon_Character_25: 2138065020
+      Dungeon_Character_26: 1761000553
+      Dungeon_Character_27: -1250589522
       Dungeon_Character_3: -2202683092090327602
       Dungeon_Character_4: -1622992940848078624
       Dungeon_Character_5: 6824633224269233963
